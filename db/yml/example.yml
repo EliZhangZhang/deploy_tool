@@ -1,0 +1,11 @@
+example: &example
+  :nginx_server:
+    :address: root@localhost
+    :port: 22
+  :tomcat_server:
+    :api_1:
+      :address: root@localhost
+      :port: 22
+    :api_2:
+      :address: root@localhost
+      :port: 22
